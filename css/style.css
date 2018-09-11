@@ -1,0 +1,149 @@
+/* global css */
+
+/* header-css */
+
+.navbar-nav a{
+	margin-left: 20px;
+}
+
+header{
+	border-bottom: 3px solid #2ca5d6;
+}
+
+/* banner-css */
+
+.banner-section{
+	background: url(../img/home.jpg) no-repeat center top;
+	background-size: cover;
+	background-attachment: fixed;
+
+}
+
+.opacity{
+	background: rgba(0,0,0,.5);
+	padding-top: 90px;
+
+}
+
+.fa{
+	background-color: white;
+	color: #2ca5d6;
+	padding: 10px;
+	font-size: 30px;
+}
+
+.card{
+	background-color: #2ca5d6;
+}
+
+/* explore-section */
+
+.explore-section{
+	background-color: #333333;
+}
+
+
+/* explore learn */
+
+.explore-learn{
+	background-color: #F8F9FA;
+}
+
+.explore-learn .fa{
+	background-color: #333;
+	color: white;
+}
+/* explore-create */
+
+.explore-create{
+	background-color: #2ca5d6;
+}
+
+.explore-passion{
+	background-color: #333333;
+}
+
+
+.about-us-section a{
+	text-decoration: none;
+	color: black;
+}
+footer{
+	background-color: #333333;
+}
+@media(max-width: 767px){
+	.banner-section h1{
+		font-size: 32px;
+	}
+
+	.explore-section{
+		padding: 20px 0px!important;
+
+	}
+	.explore-section p{
+		text-align: justify!important;
+		margin-top: 5px!important;
+		
+	}
+
+	.explore-section button{
+		width: 100%;
+	}
+	.explore{
+		margin-top: 0px!important;
+	}
+
+	.explore-learn{
+		padding: 20px 0px!important;
+	}
+
+	.explore-learn p{
+		text-align: justify!important;
+	}
+	.explore-learn h1{
+		margin-top: 30px!important;
+		font-size: 32px!important;
+		text-align: center;
+	}
+	.explore-create{
+		padding: 20px 0px!important;
+	}
+
+	.explore-create p{
+		text-align: justify!important;
+		margin-top: 5px!important;
+	}
+
+	.explore-create button{
+		width: 100%;
+		margin-top: 5px!important;
+	}
+	.explore-passion{
+		padding: 20px 0px!important;
+	}
+	.explore-passion p{
+		text-align: justify!important;
+	}
+	.explore-passion h1{
+		text-align: center!important;
+	}
+	.explore-create{
+		padding: 20px 0px!important;
+	}
+
+.opacity{
+	padding-top: 40px!important;
+}
+}
+@media(max-width: 575px){
+	.explore-section p{
+		font-size: 14px;
+	}
+}
+
+@media(max-width: 576){
+	.explore-create p{
+		font-size: 14px;
+	}
+
+}
